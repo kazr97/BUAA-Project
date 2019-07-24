@@ -1,0 +1,13 @@
+[Inputs]
+clk
+clr
+WE_I
+=DAT_I[31:0]=
+=ADD_I[3:2]=
+[Outputs]
+IRQ
+=DAT_O[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel timer
+

@@ -1,0 +1,182 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.41 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.41 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "control.v" in library work
+Compiling verilog file "RF.v" in library work
+Module <control> compiled
+Compiling verilog file "PC.v" in library work
+Module <RF> compiled
+Compiling verilog file "p.v" in library work
+Module <PC> compiled
+Compiling verilog file "NPC.v" in library work
+Module <p> compiled
+Compiling verilog file "MUX_ALU_B.v" in library work
+Module <NPC> compiled
+Compiling verilog file "MULT.v" in library work
+Module <MUX_ALU_B> compiled
+Compiling verilog file "MFRTM.v" in library work
+Module <MULT> compiled
+Compiling verilog file "MFRTE.v" in library work
+Module <MFRTM> compiled
+Compiling verilog file "MFRTD.v" in library work
+Module <MFRTE> compiled
+Compiling verilog file "MFRSE.v" in library work
+Module <MFRTD> compiled
+Compiling verilog file "MFRSD.v" in library work
+Module <MFRSE> compiled
+Compiling verilog file "IM.v" in library work
+Module <MFRSD> compiled
+Compiling verilog file "EXT16_32.v" in library work
+Module <IM> compiled
+Compiling verilog file "DM.v" in library work
+Module <EXT16_32> compiled
+Compiling verilog file "CP0.v" in library work
+Module <DM> compiled
+Compiling verilog file "CMP.v" in library work
+Module <CP0> compiled
+Compiling verilog file "BE.v" in library work
+Module <CMP> compiled
+Compiling verilog file "ALU1.v" in library work
+Module <BE> compiled
+Compiling verilog file "W.v" in library work
+Module <ALU> compiled
+Compiling verilog file "MtoW.v" in library work
+Module <W> compiled
+Compiling verilog file "M.v" in library work
+Module <MtoW> compiled
+Compiling verilog file "Hazard.v" in library work
+Module <M> compiled
+Compiling verilog file "FtoD.v" in library work
+Module <Hazard> compiled
+Compiling verilog file "F.v" in library work
+Module <FtoD> compiled
+Compiling verilog file "EtoM.v" in library work
+Module <F> compiled
+Compiling verilog file "E.v" in library work
+Module <EtoM> compiled
+Compiling verilog file "DtoE.v" in library work
+Module <E> compiled
+Compiling verilog file "D.v" in library work
+Module <DtoE> compiled
+Compiling verilog file "timer.v" in library work
+Module <D> compiled
+Compiling verilog file "datapath.v" in library work
+Module <timer> compiled
+Compiling verilog file "Bridge.v" in library work
+Module <datapath> compiled
+Compiling verilog file "mips.v" in library work
+Module <Bridge> compiled
+Module <mips> compiled
+ERROR:HDLCompilers:206 - "D.v" line 50 Multiple connections to port 'IR' of module 'control'
+Analysis of file <"mips.prj"> failed.
+--> 
+
+Total memory usage is 256856 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

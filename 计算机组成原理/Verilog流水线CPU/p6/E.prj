@@ -1,0 +1,7 @@
+verilog work "control.v"
+verilog work "MUX_ALU_B.v"
+verilog work "MULT.v"
+verilog work "MFRTE.v"
+verilog work "MFRSE.v"
+verilog work "ALU.v"
+verilog work "E.v"

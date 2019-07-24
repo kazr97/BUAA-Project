@@ -1,0 +1,93 @@
+Running: D:\NewFolder\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/NewFolder/data/p5.2/test_isim_beh.exe -prj D:/NewFolder/data/p5.2/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/NewFolder/data/p5.2/control.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/RF.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/PC.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/p.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/NPC.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/MUX_ALU_B.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/MULT.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/MFRTM.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/MFRTE.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/MFRTD.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/MFRSE.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/MFRSD.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/IM.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/EXT16_32.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/DM.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/CP0.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/CMP.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/BE.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/ALU1.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/W.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/MtoW.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/M.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/Hazard.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/FtoD.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/F.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/EtoM.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/E.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/DtoE.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/D.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/timer.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/datapath.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/Bridge.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/mips.v" into library work
+Analyzing Verilog file "D:/NewFolder/data/p5.2/test.v" into library work
+Analyzing Verilog file "D:/NewFolder/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:709 - "D:/NewFolder/data/p5.2/D.v" Line 50: Port IR is already connected
+WARNING:HDLCompiler:1016 - "D:/NewFolder/data/p5.2/F.v" Line 38: Port EXTsle is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/NewFolder/data/p5.2/D.v" Line 50: Port MUX_ALU_B_sle is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/NewFolder/data/p5.2/E.v" Line 45: Port EXTsle is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/NewFolder/data/p5.2/MULT.v" Line 40: Port IR is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/NewFolder/data/p5.2/M.v" Line 39: Port besle is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/NewFolder/data/p5.2/M.v" Line 41: Port EXTsle is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/NewFolder/data/p5.2/W.v" Line 42: Port EXTsle is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 162024 KB
+Fuse CPU Usage: 609 ms
+Compiling module PC
+Compiling module IM
+Compiling module control
+Compiling module F
+Compiling module FtoD
+Compiling module RF
+Compiling module EXT16_32
+Compiling module CMP
+Compiling module NPC
+Compiling module MFRSD
+Compiling module MFRTD
+Compiling module D
+Compiling module DtoE
+Compiling module ALU
+Compiling module MUX_ALU_B
+Compiling module MFRSE
+Compiling module MFRTE
+Compiling module MULT
+Compiling module E
+Compiling module EtoM
+Compiling module MFRTM
+Compiling module DM
+Compiling module CP0
+Compiling module p
+Compiling module M
+Compiling module MtoW
+Compiling module BE
+Compiling module W
+Compiling module Hazard
+Compiling module datapath
+Compiling module Bridge
+Compiling module timer
+Compiling module mips
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 20 sub-compilation(s) to finish...
+Compiled 35 Verilog Units
+Built simulation executable D:/NewFolder/data/p5.2/test_isim_beh.exe
+Fuse Memory Usage: 181708 KB
+Fuse CPU Usage: 1734 ms

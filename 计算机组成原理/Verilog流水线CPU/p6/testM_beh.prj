@@ -1,0 +1,8 @@
+verilog work "p.v"
+verilog work "MFRTM.v"
+verilog work "DM.v"
+verilog work "CP0.v"
+verilog work "control.v"
+verilog work "M.v"
+verilog work "testM.v"
+verilog work "D:/NewFolder/14.7/ISE_DS/ISE//verilog/src/glbl.v"

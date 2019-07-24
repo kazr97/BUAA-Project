@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/NewFolder/data/p5.2/timer.v -lang verilog -prj p5.2 -o timer.spl -module timer -template D:/NewFolder/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a timer.spl D:/NewFolder/data/p5.2/timer.sym 

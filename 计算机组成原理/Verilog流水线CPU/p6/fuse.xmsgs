@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="709" delta="unknown" >"D:/NewFolder/data/p5.2/D.v" Line 50: Port <arg fmt="%s" index="1">IR</arg> is already connected
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/NewFolder/data/p5.2/F.v" Line 38: Port <arg fmt="%s" index="1">EXTsle</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/NewFolder/data/p5.2/D.v" Line 50: Port <arg fmt="%s" index="1">MUX_ALU_B_sle</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/NewFolder/data/p5.2/E.v" Line 45: Port <arg fmt="%s" index="1">EXTsle</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/NewFolder/data/p5.2/MULT.v" Line 40: Port <arg fmt="%s" index="1">IR</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/NewFolder/data/p5.2/M.v" Line 39: Port <arg fmt="%s" index="1">besle</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/NewFolder/data/p5.2/M.v" Line 41: Port <arg fmt="%s" index="1">EXTsle</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/NewFolder/data/p5.2/W.v" Line 42: Port <arg fmt="%s" index="1">EXTsle</arg> is not connected to this instance
+</msg>
+
+</messages>
+

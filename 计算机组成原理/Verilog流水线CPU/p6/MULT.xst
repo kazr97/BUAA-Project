@@ -1,0 +1,5 @@
+set -tmpdir "D:/NewFolder/data/p5.2/xst/projnav.tmp"
+set -xsthdpdir "D:/NewFolder/data/p5.2/xst"
+elaborate
+-ifn MULT.prj
+-ifmt mixed

@@ -1,0 +1,16 @@
+[Inputs]
+start
+clr
+clk
+IntReq
+=IR_E[31:0]=
+=MFRSEOUT[31:0]=
+=MUX_ALU_B_OUT[31:0]=
+=MULTsle[3:0]=
+[Outputs]
+busy
+=MULTOUT[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel MULT
+
